@@ -108,7 +108,7 @@ app.get('/gpt/:text', async (req, res) => {
         model: "text-davinci-003",
         prompt: prompt,
         temperature: 0.5,
-        max_tokens: 60,
+        max_tokens: 100,
         top_p: 1,
         frequency_penalty: 0,
         presence_penalty: 0,
